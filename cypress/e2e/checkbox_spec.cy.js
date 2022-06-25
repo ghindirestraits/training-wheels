@@ -1,7 +1,7 @@
 
 
 it('deve marcar os top 5 filmes da Marvel', function () {
-    cy.visit('https://training-wheels-qaninja.herokuapp.com/checkboxes');
+    cy.visit('/checkboxes');
 
     const movies = [
         'avengers',

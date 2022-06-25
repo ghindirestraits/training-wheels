@@ -1,7 +1,7 @@
 
 
 it('deve exibir a homepage', function () {
-    cy.visit('https://training-wheels-qaninja.herokuapp.com/');
+    cy.visit('/');
 
     cy.title()
         .should('eq', 'Training Wheels | QAninja');
